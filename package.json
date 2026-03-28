@@ -1,0 +1,20 @@
+{
+  "name": "nickstire-cron-worker",
+  "version": "1.0.0",
+  "description": "Standalone cron worker for Nick's Tire & Auto — runs on Railway to offload Vercel memory",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "cron": "^3.1.7",
+    "mysql2": "^3.11.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "tsx": "^4.19.2",
+    "@types/node": "^22.10.5"
+  }
+}
